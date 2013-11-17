@@ -1,0 +1,22 @@
+﻿
+.api #jobPlug h2,
+.api #jobPlug #jobContact {
+    background-color: #DE2029;
+}
+
+
+.api .apiLogo .apiImage {
+    background: url(http://r.api.no/local/v3/publications/www.oa.no/gfx/normal_logo.gif) 0 0 no-repeat;
+}
+
+
+.api .apiSlimLogo .apiImage {
+    background: url(http://r.api.no/local/v3/publications/www.oa.no/gfx/lav_logo.gif) 0 0 no-repeat;
+}
+
+
+.api div#apiTopMenu ul,
+.api div#apiSlimMenu ul,
+.api div#apiTopMenuWrapper {
+    background-color: #DE2029;
+}

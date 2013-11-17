@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/content/css")
+</head>
+
+<body class="api">
+    <div class="apiMultifix apiMultifix apiPageWrap">
+        <div class="apiHeaderMultifix">
+            <div id="apiTopMenuWrapper">
+                <div id="apiSlimMenu">
+                    <ul>
+                        <li class="apiSlimLogo">
+                            <a href="http://www.oa.no/"><img src="http://r.api.no/local/v3/publications/www.oa.no/gfx/lav_logo.gif" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/">Forsiden</a><!-- section -->
+                        </li>
+                        <li>
+                            <a class="active" href="http://www.oa.no/nyheter/">Nyheter</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/sport/">Sport</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/kultur/bw/">Bandwagon</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/kultur/">Kultur</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/navn/">Folk i dag</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/leserbrev/">Debatt</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/motor/">Motor</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/bolig/">Bolig</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/jobb/">Jobb</a><!-- section -->
+                        </li>
+                        <li>
+                            <a href="http://www.oa.no/">konkurranse</a><!-- section -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    @RenderBody()
+</body>
+</html>
